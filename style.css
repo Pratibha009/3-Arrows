@@ -1,0 +1,395 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* border: border-box; */
+}
+body{
+    background-color: rgb(236, 236, 240);
+}
+
+.navbar{
+    height: 67px;
+    background-color: #ffffff;
+    color: rgb(72, 70, 70);
+    align-items: center;
+    display: flex;
+    border: 2px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.nav_logo{
+    width: 140px;
+    margin-left: 90px;
+    margin-right: 50px;
+    position: 20px;
+    /* align-items: center; */
+}
+.logo{
+    background-image: url(flipkart-logo.jpg);
+    background-size:cover;
+    height: 60px;
+    width: 100%;
+    margin: 2px;
+    /* align-items: center; */
+}
+
+.search-container{
+    justify-content: space-evenly;
+}
+
+.search{
+    height: 50px;
+    padding: 12px;
+    align-items: center;
+}
+
+.search-box{
+   height: 40px;
+   width: 450px;
+   background-color: rgb(238, 244, 253);
+   border-radius: 5px;
+/* align-items: center; */
+}
+
+
+
+button{
+    height: 44px;
+    width: 40px;
+}
+
+.login{
+    border-radius: 2px; 
+    padding:  0 20px;
+}
+
+.login-items{
+    height: 41px;
+    width: 111px;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+.login:hover{
+    background-color: rgb(63, 63, 246);
+}
+
+.cart{
+    border-radius: 2px; 
+    padding:  0 20px;
+}
+.Bag{
+    height: 41px;
+    width: 111px;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+.become-seller{
+    border-radius: 2px;
+    padding: 0 20px;
+}
+.seller{
+    height: 24px;
+    width: 121px;
+    border-radius: 2px;
+    padding: 8px;
+}
+
+.more{
+    height: 41px;
+    width: 81px;
+    border-radius: 2px;
+    padding: 0 20px;
+}
+
+.options{
+    height: 24px;
+    width: 24px;
+    padding: 8px;
+}
+
+.products{
+    height: 180px;
+    width: 97%; 
+    margin-left: 20px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
+    justify-content: space-evenly;
+    display: flex;
+}
+
+.grocery{
+    height: 180px;
+    width: 140px;
+}
+.mobiles{
+    height: 180px;
+    width: 140px;
+}
+.images{
+    height: 90px;
+    width: 92px;
+    padding: 16px 16px 16px 24px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.fashion{
+    height: 180px;
+    width: 140px;
+}
+.electronics{
+    height: 180px;
+    width: 140px;
+}
+.home-Furniture{
+    height: 180px;
+    width: 140px;
+}
+.appliances{
+    height: 180px;
+    width: 140px;
+}
+.travel{
+    height: 180px;
+    width: 140px;
+}
+.beauty-toys-more{
+    height: 180px;
+    width: 140px;
+}
+
+.sliding-Product{
+    height: 206px;
+    background-color: #ffffff;
+    width: 97%;
+    margin-left:20px ; 
+}
+
+.slider{
+    height: 206px;
+    text-align: center;
+    /* overflow: hidden; */
+}
+
+
+
+.electronics-1{
+    height: 28px;
+    width: 80%;
+    background-color: #ffffff;
+    padding: 16px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.electronics-product{
+    background-color: #ffffff;
+    height: 260px;
+    margin-left: 20px;
+    width: 82%;
+    padding: 16px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.product-1{
+    height: 250px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 6px;
+    text-align: center;
+    /* border: border-box; */
+    border-radius: 3px;
+}
+
+.product-2{
+    height: 250px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 6px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.product-3{
+    height: 250px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 6px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.product-4{
+    height: 250px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 6px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.product-5{
+    height: 250px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 6px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+
+.box2{
+    height: 28px;
+    width: 95%;
+    background-color: #ffffff;
+    padding: 16px;
+    margin-left: 20px;
+    background-color: #ffffff;
+    box-shadow: 4px 4px 8px rgba(0,0,0,0.1);
+    display: flex;
+
+    
+
+}
+
+.box-2{
+    background-color: #ffffff;
+    height: 280px;
+    padding: 0 4px 12px;
+    margin-left: 20px;
+    width: 96.5%;
+    /* padding: 16px 0; */
+    display: flex;
+    justify-content: space-around;
+    
+
+
+}
+
+
+.product-6{
+    height: 250px;
+    width: 200px;
+    border: 1px solid black;
+    margin: 6px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.e-img-box{
+    border: border-box;
+}
+
+.e-img{
+    height: 186px;
+    width: 186px;
+    margin: 6px;
+    /* margin: 26px 0 ; */
+}
+
+.para{
+    padding: 12px 0 0;
+    font-size: 14px;
+}
+.para1{
+    font-weight: lighter;
+    color: #212121;
+}
+.para{
+    font-weight:600;
+}
+
+
+
+.heading{
+    height: 28px;
+    width: 445px;
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 16px;
+    margin-left: 20px;
+    display: flex;
+}
+
+#content{
+    width: 420px;
+}
+.item-flex{
+    display: flex;
+}
+
+.items{
+    height: 600px;
+    width: 453px;
+    background-color: #ffffff;
+    padding: 0 12px 4px;
+    margin-left: 20px; 
+}
+.item-1{
+    height: 270px;
+    width: 190px;
+    padding: 0 0 12px;
+    border: 1px solid #212121;
+    padding: 12px 12px 0;
+    border-radius: 3px;
+    position: relative;
+    left: 5px;
+}
+
+.item-2{
+    height: 270px;
+    width: 190px;
+    padding: 0 0 12px;
+    border: 1px solid #212121;
+    padding: 12px 12px 0;
+    border-radius: 3px;
+    position: relative;
+    top: -285px;
+    left: 230px;
+}
+
+.item-name{
+    font-size: 17px;
+    /* text-align: center; */
+    padding: 16px 0 0;
+}
+#item-id{
+    color: #108934 ;
+    font-weight: 600;
+}
+
+.item-3{
+    height: 270px;
+    width: 190px;
+    padding: 0 0 12px;
+    border: 1px solid #212121;
+    padding: 12px 12px 0;
+    border-radius: 3px;
+    position: relative;
+    top: -270px;
+    left: 5px;
+}
+
+.item-4{
+    height: 270px;
+    width: 190px;
+    padding: 0 0 12px;
+    border: 1px solid #212121;
+    padding: 12px 12px 0;
+    border-radius: 3px;
+    position: relative;
+    top: -555px;
+    left: 230px;
+}
+
+
+.about{
+    /* margin: 20px; */
+    padding: 30px;
+    color:#878787;
+}
