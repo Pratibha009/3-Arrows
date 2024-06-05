@@ -450,7 +450,7 @@ button{
     margin-bottom: 16px;
 }
 
-a{
+#anchor{
     color: #ffffff;
     text-decoration: none;
 }
@@ -478,3 +478,167 @@ a{
 #icons{
     color: goldenrod;
 }
+
+/* Css to make it responsive */
+
+/* General styles */
+body {
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  /* Navbar styles */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar a {
+    color: #333;
+    margin: 0 1rem;
+  }
+  
+  .navbar a:hover {
+    color: #007bff;
+  }
+  
+  .search {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-container {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem;
+  }
+  
+  .search-box {
+    flex: 1;
+    border: none;
+    padding: 0.5rem;
+  }
+  
+  .login {
+    display: flex;
+    align-items: center;
+  }
+  
+  .login-items {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+  }
+  
+  .cart {
+    display: flex;
+    align-items: center;
+  }
+  
+  .become-seller {
+    display: flex;
+    align-items: center;
+  }
+  
+  .more {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Media queries for responsiveness */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+    }
+  
+    .navbar a {
+      margin: 1rem 0;
+    }
+  
+    .search {
+      flex: none;
+      margin: 1rem 0;
+    }
+  
+    .login, .cart, .become-seller, .more {
+      margin: 1rem 0;
+    }
+  }
+  
+  /* Product styles */
+  .products {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 2rem;
+  }
+  
+  /* .grocery, .mobiles, .fashion, .electronics, .home-Furniture, .appliances, .travel, .beauty-toys-more, .two-wheelers {
+    flex: 1 0 20%;
+    margin-bottom: 2rem;
+    text-align: center;
+  } */
+  
+  .images {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .images img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .images:hover img {
+    transform: scale(1.1);
+  }
+  
+  .images p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 1rem;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .images:hover p {
+    opacity: 1;
+  }
+  
+  /* Slider styles
+  .sliding-Product {
+    position: relative;
+    overflow: hidden;
+    margin: 2rem;
+  }
+  
+  .slider {
+    display: flex;
+    width: 300%;
+    animation: slide 15s infinite;
+  }
+  
+  .slider img {
+    width: 33.33%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  . */
